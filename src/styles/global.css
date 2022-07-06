@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+}
+
+html,
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Roboto;
+    background-color: rgb(228, 232, 235);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+.hidden {
+    display: none;
+}

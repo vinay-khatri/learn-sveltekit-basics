@@ -1,0 +1,12 @@
+# This file is only for Linux, host network_mode doesn't support mac and windows.
+
+services:
+  nutri-web-svelte:
+    build: .
+    container_name: nutri-web-svelte
+    restart: unless-stopped
+    network_mode: "host"
+    environment:
+      PORT: "21002"
+      API: http://localhost/api
+      MEDIA: http://localhost/vi
